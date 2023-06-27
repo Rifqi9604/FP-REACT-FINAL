@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background: #4568DC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.movie-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.movie-wrapper {
+  width: 500px;
+  color: black;
+  background-color: #E8CBC0;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.8);
+}
+
+.movie-search {
+  height: 48px;
+  font-size: 24px;
+  margin-bottom: 32px;
+  padding: 16px;
+  font-weight: bold;
+  width: 475px;
+  border-radius: 20px;
+  background-color: #E8CBC0;
+  border: black;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.8);
+}
+
+.movie-title {
+  height: 60px;
+  margin-top: 26px;
+  font-weight: bold;
+}
+
+.movie-date {
+  font-style: italic;
+  margin-top: 26px;
+}
+
+.movie-rate {
+  color: red;
+  margin-bottom: 24px;
+  font-style: bold;
+  font-size: 1.2em;
+  text-decoration: underline;
+}
